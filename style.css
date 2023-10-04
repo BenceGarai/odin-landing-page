@@ -26,3 +26,20 @@
     color: #F9FAF8;
     font-weight: 700;
 }
+
+.hero img {
+    border-radius: 1px;
+    border: 2px solid white;
+    padding: 5px;
+    width: 500px;
+    flex: auto;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
