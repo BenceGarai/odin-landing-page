@@ -3,19 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navigation">
-            <a class="active" href="index.html">Home</a>
-            <a href="about.html">About</a>
-    </div>
-    <div class="hero">
-        <h1 class="maintext">Welcome to my portfolio website!</h1>
-        <img src="images/amsterdam.jpg" alt="Amsterdam canal">
-        <p>This is secondary text</p>
-        <button>Sign up!</button>
+    <div class="container">
+        <nav class="bx navigation">
+            <div class="header-logo">
+                <img src="images/bicycle.jpeg">
+            </div>
+            <div class="header-link">
+                <a href="about.html">About</a>
+                <a href="index.html">Home</a>
+            </div>
+        </nav>
+        <div class="bx hero">
+            <div class="hero-1 hero-cta">
+                <h1>This is my potfolio website!</h1>
+                <p>This is only a sample website.</p>
+                <button>Sign up!</button>
+            </div>
+            <div class="hero-1 hero-image">
+                <img src="images/amsterdam.jpg" alt="Amsterdam canal">
+            </div>
+        </div>
+
+        <div class="bx content">
+            <h2>Some random information.</h2>
+            <div class="content-info">
+                <div>
+                    <img src="images/content1">
+                    <p>First image</p>
+                </div>
+                <div>
+                    <img src="images/content2">
+                    <p>Second image</p>
+                </div>
+                <div>
+                    <img src="images/content3">
+                    <p>Third image</p>
+                </div>
+                <div>
+                    <img src="images/content4">
+                    <p>Fourth image</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bx quote">
+            <p>"This is an inspiring quote from a student. Maybe the space just has to be filled with some kind of information."</p>
+            <b>--Anonymous</b>
+        </div>
+        <div class="bx sign-up">
+            <div class="sign-item signs-text">
+                <h3>Keep yourself updated!</h3>
+                <p>Sign up for the latest updates here.</p>
+            </div>
+            <div class="sign-item signs-button">
+                <button type="button">Sign Up</button>
+            </div>
+        </div>
+        <div class="bx footer">
+            <p>This is a footer.</p>
+        </div>
     </div>
 </body>
 </html>
